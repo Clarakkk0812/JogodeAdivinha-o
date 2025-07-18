@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    background-color: #5c52f3;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+    background-color: #8cb6ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imagem{
+   width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.button{
+    background-color: #92fd8e; 
+    
+}
+
+.button:hover {
+    background-color: #09dfa2;
+}
